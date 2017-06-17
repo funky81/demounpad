@@ -1,0 +1,8 @@
+applications:
+- name: demounpad
+random-route: true
+memory: 512M
+buildpack: https://github.com/cloudfoundry/php-buildpack.git
+health-check-type: port
+instances: 2
+host: demounpad
